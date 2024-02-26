@@ -1,0 +1,34 @@
+{
+  "name": "msil-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node ./src/pages/api/callHandler.js && next build",
+    "new-build": "node ./src/pages/api/callHandler.js",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "archiver": "^6.0.1",
+    "axios": "^1.6.4",
+    "formik": "^2.4.5",
+    "fs-extra": "^11.2.0",
+    "jquery": "^3.7.1",
+    "jszip": "^3.10.1",
+    "next": "^14.0.3",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-calendar": "^4.7.0",
+    "react-dom": "^18",
+    "react-redux": "^9.0.4",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3"
+  }
+}

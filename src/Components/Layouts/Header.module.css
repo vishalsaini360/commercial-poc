@@ -1,0 +1,35 @@
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 8000;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1rem 1rem 0.2rem;
+}
+.header_a{
+    position: relative;
+    margin-left: 2.5rem;
+    width: 20.8vw;
+    max-width: 31.5rem;
+    height: 4.1rem;
+    margin-left: 2.5rem;
+}
+.header_logo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: transparent;
+    object-fit: contain;
+}
+.header_ul{
+    margin-right: 56px;
+    column-gap: 1.8rem;
+}
+.text_color{
+    color: black;
+    font-weight: 500;
+}

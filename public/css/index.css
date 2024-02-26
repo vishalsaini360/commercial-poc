@@ -1,0 +1,118 @@
+section.vehicle-range{
+    background-position: left top -7px;
+    background-image: url('http://35.154.31.96/creative/ms-commercial-html/images/sec-01-bg-new.webp');
+}
+.container {
+    max-width: 1536px;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.vehicle-range .heading{
+    padding-top: 3.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav.nav-tabs{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    column-gap: 0.625rem;
+}
+.nav.nav-tabs .nav-link{
+    background: none;
+    color: black;
+    padding: 4px;
+    border-radius: 0;
+    font-size: 16px;
+}
+.nav.nav-tabs .nav-link.active{
+    background: none;
+    border: 2px solid #da251d;
+    padding: 4px;
+    border-radius: 0;
+    font-size: 16px;
+}
+.nav.nav-tabs .nav-link:hover{
+    border: 2px solid #da251d;
+}
+.vehicle-block{
+    display: inline;
+}
+.vehicle-content-wrapper{
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;  
+    max-width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 30%;
+}
+.vehicle-content{
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;  
+}
+.vehicle-range-item{
+    width: 741px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-icon{
+    flex: 1 1 0%;
+    margin-left: 0.75rem;
+}
+.text-title{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: gorditamedium;
+    padding-bottom: 0.375rem;
+    font-weight: 400;
+}
+.text-wrapper{
+    display: flex;
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: gorditabold;
+}
+.digit-start{
+    display: block;
+    min-width: 162px;
+    max-width: 162px;
+}
+
+.veicle-shrink-img{
+    display: flex;
+    background-image: url(http://35.154.31.96/creative/ms-commercial-html/images/sprite.webp);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 44px;
+    background-position: -269px -193px;
+}
+
+
+.slick-dots{
+    display: block;
+    position: absolute;
+    /* background: black; */
+    bottom: 17px;
+    justify-content: center;
+    display: flex !important;
+    text-align: center;
+    left: 50%;
+ }
+ .slick-dots li button{
+    border: 1px solid white;
+ }
+ .vehicle-range .slick-list{
+    padding: 82px 159px !important;
+ }
+ .vehicle-range .slick-list img{
+    width: 500px;
+ }

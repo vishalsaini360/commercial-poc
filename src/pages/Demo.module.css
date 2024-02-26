@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.loginWrapper {
+    width: 40%;
+    background: #1A1A1A;
+    padding: 3rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 #DA251D;
+}
+
+.loginHeading {
+    color: #ffff;
+    text-align: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    outline: none;
+    margin: 12px 0px;
+}
+.p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #DA251D;
+}
+.loginBtn {
+    width: 20%;
+    font-size: 18px;
+    outline: none;
+    color: #ffff;
+    padding: 18px 15px;
+    border-radius: 8px;
+    background-color: #DA251D;
+}

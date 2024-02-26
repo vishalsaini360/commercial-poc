@@ -1,0 +1,47 @@
+.video_banner {
+    position: relative;
+    height: 600px; /* You can adjust the height as needed */
+    overflow: hidden;
+  }
+  .video_banner_video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  /* Style for overlay */
+  .video_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  }
+  .banner_button_wrapper{
+    position: absolute;
+    bottom: 35px;
+    right: 72px;
+    z-index: 99;
+  }
+  .banner_button{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.8rem;
+  }
+  .white_button {
+    background: rgb(255, 255, 255);
+    color: rgb(218, 37, 29);
+    border: rgb(255, 255, 255);
+    min-width: 12.3rem;
+}
+.white_button:hover {
+    background: rgb(218, 37, 29);
+    color: rgb(255, 255, 255);
+    border: rgb(218, 37, 29);
+  }

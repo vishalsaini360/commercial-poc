@@ -1,0 +1,18 @@
+.previousArrow{
+    top:"112px";
+    position: "absolute";
+}
+.nextArrow{
+    left: "36px";
+    position: "absolute";
+}
+#nprogress .bar {
+    background-color: #da251d !important;
+    height: 5px !important;
+  }
+  
+  #nprogress .peg {
+    box-shadow: none !important
+  }
+  
+  
